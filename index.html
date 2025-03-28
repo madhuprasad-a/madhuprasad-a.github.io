@@ -1,1 +1,220 @@
-Hello, World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madhuprasad A - DevOps Engineer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Inter', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            font-size: 10pt;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 10px;
+        }
+        .header h1 {
+            color: #007bff;
+            font-size: 24pt;
+            text-transform: uppercase;
+            margin-bottom: 5px;
+        }
+        .header h2 {
+            color: #6c757d;
+            font-size: 12pt;
+            margin-bottom: 10px;
+        }
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            font-size: 9pt;
+            color: #6c757d;
+        }
+        .section-title {
+            color: #007bff;
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 12pt;
+            margin-bottom: 10px;
+            border-bottom: 1px solid #dee2e6;
+            padding-bottom: 5px;
+        }
+        .experience-item {
+            margin-bottom: 15px;
+        }
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 5px;
+        }
+        .job-title {
+            font-weight: bold;
+            color: #000;
+            font-size: 10pt;
+        }
+        .job-company {
+            color: #007bff;
+            font-size: 10pt;
+        }
+        .job-date {
+            color: #6c757d;
+            font-size: 9pt;
+        }
+        .job-location {
+            color: #6c757d;
+            font-size: 9pt;
+            margin-bottom: 5px;
+        }
+        .experience-item ul {
+            padding-left: 15px;
+            font-size: 9pt;
+        }
+        .tech-skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 5px;
+        }
+        .skill-tag {
+            background-color: #e9ecef;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-size: 8pt;
+            color: #495057;
+        }
+        .footer {
+            text-align: center;
+            color: #6c757d;
+            font-size: 8pt;
+            margin-top: 10px;
+        }
+        @media print {
+            body {
+                padding: 0;
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Madhuprasad A</h1>
+        <h2>DevOps Engineer</h2>
+        <div class="contact-info">
+            <span>9384099867</span>
+            <span>madhuprasad0089@gmail.com</span>
+            <span>madhuprasad-a-865b29222</span>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Summary</div>
+        <p>Skilled DevOps Engineer with expertise in cloud computing, automation, cost optimization, and (CI/CD) pipelines. Proficient in Docker, Kubernetes, Terraform, Ansible, AWS, Jenkins, Python, and Bash scripting. Adept at streamlining processes, enhancing efficiency, and driving cost savings.</p>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Experience</div>
+        
+        <div class="experience-item">
+            <div class="job-header">
+                <div>
+                    <span class="job-title">DevOps Engineer</span>
+                    <span class="job-company"> | Particle Black India Private Limited</span>
+                </div>
+                <span class="job-date">10/2023 - Present</span>
+            </div>
+            <div class="job-location">Chennai</div>
+            <ul>
+                <li>Led Kubernetes adoption, conducting POCs with EKS, kubeadm, and kops to migrate applications from traditional EC2 deployments to containerized environments.</li>
+                <li>Spearheaded migration of 20+ application from traditional deployments to Kubernetes clusters and maintaining them.</li>
+                <li>Introduced ArgoCD for continuous deployment to Kubernetes clusters</li>
+                <li>Created end-to-end CI/CD pipeline using Git, Docker, Jenkins, CodePipeline, ECR, Kubernetes cluster, and ArgoCD.</li>
+                <li>Successfully implemented eslint prettier and SonarQube in Azure pipelines for every pr into development, qa, sit, etc branches so if they can see the output, approve then merged to respective branch.</li>
+                <li>Implemented provisioning of AWS resources (S3, CloudFront, RDS, EC2, ECR, Code-Pipeline) using Terraform, reducing setup time from 2-3 hours to 5-10 minutes.</li>
+                <li>Implemented configuration management using Ansible for application deployment and dependency installation on provisioned EC2 instances.</li>
+                <li>Dockerized multiple applications and implemented AWS CodeBuild CodePipeline for streamlined deployments of projects.</li>
+                <li>Optimized RDS costs by migrating from 500 to 30 GB instances, resulting in significant cost savings.</li>
+                <li>Developed a Python Flask application with Boto3 to automate EC2 and RDS instance start/stop/reboot operations with RBAC and user management.</li>
+                <li>Introduced Jenkins for CI/CD in projects, reducing workload by 50%.</li>
+            </ul>
+        </div>
+
+        <div class="experience-item">
+            <div class="job-header">
+                <div>
+                    <span class="job-title">Trainee Engineer</span>
+                    <span class="job-company"> | Atos Global IT Solutions Pvt Ltd</span>
+                </div>
+                <span class="job-date">09/2022 - 10/2023</span>
+            </div>
+            <div class="job-location">Chennai</div>
+            <ul>
+                <li>Deployed many websites on AWS EC2 instances, Linux and Windows, for web and app servers.</li>
+                <li>Gained experience in various technologies and methodologies, contributing to team success.</li>
+            </ul>
+        </div>
+
+        <div class="experience-item">
+            <div class="job-header">
+                <div>
+                    <span class="job-title">Intern</span>
+                    <span class="job-company"> | Langscape Language Solutions Pvt Ltd</span>
+                </div>
+                <span class="job-date">04/2022 - 06/2022</span>
+            </div>
+            <div class="job-location">Chennai</div>
+            <ul>
+                <li>Worked on dockerizing an AI/ML applications in Python Django for an AI translation website.</li>
+                <li>Acquired hands-on experience with Docker containerisation and custom image creation.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Tech Skills</div>
+        <div class="tech-skills">
+            <span class="skill-tag">Docker</span>
+            <span class="skill-tag">Kubernetes</span>
+            <span class="skill-tag">Jenkins</span>
+            <span class="skill-tag">Terraform</span>
+            <span class="skill-tag">Ansible</span>
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">Bash</span>
+            <span class="skill-tag">AWS</span>
+            <span class="skill-tag">Azure</span>
+            <span class="skill-tag">CI/CD</span>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Education</div>
+        <div class="job-header">
+            <div>
+                <span class="job-title">Bachelor of Engineering in Computer Science And Engineering</span>
+                <span class="job-company"> | Jerusalem College of Engineering</span>
+            </div>
+            <span class="job-date">09/2018 - 07/2022</span>
+        </div>
+        <p>CGPA 7.42 / 10</p>
+    </div>
+
+    <div class="footer">
+        www.enhancv.com
+    </div>
+</body>
+</html>
